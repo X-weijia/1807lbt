@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: "微软雅黑";
+}
+/*banner部分*/
+.banner{
+    width: 1226px;
+    height: 460px;
+    margin: 80px auto 0;
+    position: relative;
+
+}
+.pull_left{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    margin-left: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url("../img/pull.png") no-repeat -83px;
+    z-index: 15;
+    cursor: pointer;
+}
+.pull_left:hover{
+    background: url("../img/pull.png") no-repeat 0;
+}
+.pull_right{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    /*background-color: black;*/
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url("../img/pull.png") no-repeat -125px;
+    z-index: 15;
+    cursor: pointer;
+}
+.pull_right:hover{
+    background: url("../img/pull.png") no-repeat -42px;
+}
+.imgbox{
+    width: 1226px;
+    height: 460px;
+}
+.img{
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+    left: 1226px;
+    top: 0;
+    z-index: 5;
+
+}
+.img img{
+    width: 1226px;
+    height: 460px;
+
+}
+.five_point{
+    width: 326px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom:60px;
+    margin-left: 460px;
+    z-index: 15;
+}
+.point{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #92897c;
+    border: 2px solid #b3ada4;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.point:hover{
+    background:#f8efe2;
+    border:2px solid #958f88;
+}
